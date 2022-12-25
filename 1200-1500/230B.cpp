@@ -11,7 +11,7 @@ const int limit = 1000001;
 // square root of prime numbers are T-prime
 set<ll> isPrime()
 {
-  // static so primes[] duration persists 
+  // static so primes[] duration persists
   static bool primes[limit];
   for (int i = 2; i * i < limit; i++)
   {
